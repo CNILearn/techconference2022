@@ -1,4 +1,4 @@
-name: Build and deploy .NET application to container app webappsampleapp
+name: Build and deploy Azure Container App
 on:
   push:
     branches:
@@ -35,6 +35,9 @@ jobs:
         file: ${{ env.DOCKER_FILE_PATH }}
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: github/webappsample
     needs: build
     steps:
     - name: Azure Login
