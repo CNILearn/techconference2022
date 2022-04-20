@@ -40,11 +40,11 @@ classDiagram
 
 ```mermaid	
 flowchart TD
-    Start -> A
-    A -> B
-    B -> C
-    C -> D
-    D -> End
+    Start --> A
+    A --> B
+    B --> C
+    C --> D
+    D --> End
 ```
 
 ## Sequence Diagram
@@ -53,17 +53,8 @@ flowchart TD
 sequenceDiagram
     participant Alice
     participant Bob
-    Alice->>Hello
-    Bob->>Hi
-    Alice->>What's up?
-    Bob->>Nothing much
-    Alice->>Bye
+    Alice->>+Bob: Hello
+    Bob-->>-Alice: Hi
+    Alice->>+Bob: What's up?    
+    Bob-->>-Alice: Mermaid is cool!            
 ```
-
-## Pipeline
-
-```mermaid
-pipeline
-    start -> A -> B -> C -> D -> end
-```
-
