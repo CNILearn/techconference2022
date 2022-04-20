@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: webappsample
+        working-directory: github/webappsample
 
     steps:
     - uses: actions/checkout@v3
