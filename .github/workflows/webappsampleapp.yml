@@ -8,7 +8,7 @@ env:
   CONTAINER_APP_NAME: webappsampleapp
   CONTAINER_APP_RESOURCE_GROUP_NAME: codebreaker
   CONTAINER_REGISTRY_LOGIN_SERVER: codebreaker.azurecr.io
-  DOCKER_FILE_PATH: ./Dockerfile
+  DOCKER_FILE_PATH: Dockerfile
   PROJECT_NAME_FOR_DOCKER: webappsample
 jobs:
   build:
