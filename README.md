@@ -28,13 +28,13 @@
 
 [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/)
 
-### Coding
+#### Coding
 
 [GitHub Codespaces](https://docs.github.com/codespaces)
 
 [GitHub Copilot](https://copilot.github.com/)
 
-## CI/CD
+#### CI/CD
 
 [Protected Branches](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
 
