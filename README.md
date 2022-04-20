@@ -60,7 +60,15 @@
 
 [Kubernetes Concepts](https://kubernetes.io/docs/concepts/)
 
+[kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+
 [Azure Kubernetes Services](https://docs.microsoft.com/azure/aks/intro-kubernetes)
+
+[WASI](https://wasi.dev/)
+
+[WASI Node Pools](https://docs.microsoft.com/azure/aks/use-wasi-node-pools)
+
+[tye](https://github.com/dotnet/tye)
 
 [Azure Container Apps](https://docs.microsoft.com/azure/container-apps/overview)
 
