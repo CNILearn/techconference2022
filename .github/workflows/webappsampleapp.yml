@@ -8,7 +8,8 @@ env:
   CONTAINER_APP_NAME: webappsampleapp
   CONTAINER_APP_RESOURCE_GROUP_NAME: codebreaker
   CONTAINER_REGISTRY_LOGIN_SERVER: codebreaker.azurecr.io
-  DOCKER_FILE_PATH: Dockerfile
+  DOCKER_FILE_PATH: ./github/webappsample/Dockerfile
+  DOCKER_CONTEXT_PATH: ./github/webappsample
   PROJECT_NAME_FOR_DOCKER: webappsample
 jobs:
   build:
@@ -30,6 +31,7 @@ jobs:
     - name: Build and push container image to registry
       uses: docker/build-push-action@v2
       with:
+        context: ${{ env.DOCKER_CONTEXT_PATH }}
         push: true
         tags: ${{ env.CONTAINER_REGISTRY_LOGIN_SERVER }}/${{ env.PROJECT_NAME_FOR_DOCKER }}:${{ github.sha }}
         file: ${{ env.DOCKER_FILE_PATH }}
