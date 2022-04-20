@@ -48,6 +48,22 @@ flowchart TD
     D --> End
 ```
 
+## GitGraph
+
+```mermaid
+gitGraph
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit
+    commit
+    checkout main
+    merge develop
+    commit
+    commit  tag: "v1.0"
+```
+
 ## Sequence Diagram
 
 ```mermaid
