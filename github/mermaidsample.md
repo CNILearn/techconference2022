@@ -61,7 +61,7 @@ gitGraph
     checkout main
     merge develop
     commit
-    commit  tag: "v1.0"
+    commit tag: "v1.0"
 ```
 
 ## Sequence Diagram
