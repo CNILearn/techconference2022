@@ -42,7 +42,8 @@ classDiagram
 flowchart TD
     Start --> A
     A --> B
-    B --> C
+    A --> C
+    B --> D
     C --> D
     D --> End
 ```
