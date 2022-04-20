@@ -40,6 +40,12 @@
 
 [Branch Protection Rules](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
 
+[Environments for Deployments](https://docs.github.com/actions/deployment/targeting-different-environments/using-environments-for-deployment)
+
 [GitHub Actions](https://docs.github.com/actions)
 
-[Environments for Deployments](https://docs.github.com/actions/deployment/targeting-different-environments/using-environments-for-deployment)
+[Learn GitHub Actions](https://docs.github.com/actions/learn-github-actions)
+
+[Understanding GitHub Actions](https://docs.github.com/actions/learn-github-actions/understanding-github-actions)
+
+[Migrating from Azure Pipelines](https://docs.github.com/actions/migrating-to-github-actions/migrating-from-azure-pipelines-to-github-actions)
