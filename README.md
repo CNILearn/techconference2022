@@ -6,13 +6,11 @@
 
 ## From Development to Deployment with GitHub and Microsoft Azure
 
-### Links
-
-#### Intro
+### Intro
 
 [GitHub Pricing](https://github.com/pricing)
 
-#### Projects and Issues
+### Projects and Issues
 
 [Themes of .NET](https://themesof.net/)
 
@@ -28,13 +26,13 @@
 
 [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/)
 
-#### Coding
+### Coding
 
 [GitHub Codespaces](https://docs.github.com/codespaces)
 
 [GitHub Copilot](https://copilot.github.com/)
 
-#### CI/CD
+### CI/CD
 
 [Protected Branches](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
 
@@ -49,3 +47,23 @@
 [Understanding GitHub Actions](https://docs.github.com/actions/learn-github-actions/understanding-github-actions)
 
 [Migrating from Azure Pipelines](https://docs.github.com/actions/migrating-to-github-actions/migrating-from-azure-pipelines-to-github-actions)
+
+## Building Apps with Azure Kubernetes Services and Azure Container Apps
+
+[Azure App Services](https://docs.microsoft.com/azure/app-service/overview)
+
+[Azure Container Instances](https://docs.microsoft.com/azure/container-instances/)
+
+[Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview)
+
+[Microservices Patterns](https://microservices.io/patterns/microservices.html)
+
+[Kubernetes Concepts](https://kubernetes.io/docs/concepts/)
+
+[Azure Kubernetes Services](https://docs.microsoft.com/azure/aks/intro-kubernetes)
+
+[Azure Container Apps](https://docs.microsoft.com/azure/container-apps/overview)
+
+[Kubernetes Event-driven Autoscaler](https://keda.sh)
+
+[Dapr](https://dapr.io)
