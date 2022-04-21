@@ -1,10 +1,18 @@
 # Tech Conference 2022
 
+Links and more for my presentations at **Tech Conference 2022* in Vienna, Austria!
+
+[From Development to Deployment with GitHub and Microsoft Azure](#from-development-to-deployment-with-github-and-microsoft-azure)
+
+[Building Apps with Azure Kubernetes Services and Azure Container Apps](#building-apps-with-azure-kubernetes-services-and-azure-container-apps)
+
 [Tech Conference](https://www.techconference.at/)
 
 [Professional C# Source Code](https://github.com/ProfessionalCSharp/ProfessionalCSharp2021)
 
 ## From Development to Deployment with GitHub and Microsoft Azure
+
+[Slides](slides/githubazure2022pdf)
 
 ### Intro
 
@@ -50,6 +58,10 @@
 
 ## Building Apps with Azure Kubernetes Services and Azure Container Apps
 
+[Slides](slides/ContainerApps2022.pdf)
+
+### Intro
+
 [Azure App Services](https://docs.microsoft.com/azure/app-service/overview)
 
 [Azure Container Instances](https://docs.microsoft.com/azure/container-instances/)
@@ -57,6 +69,8 @@
 [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview)
 
 [Microservices Patterns](https://microservices.io/patterns/microservices.html)
+
+### Azure Kubernetes Services
 
 [Kubernetes Concepts](https://kubernetes.io/docs/concepts/)
 
@@ -69,6 +83,8 @@
 [WASI Node Pools](https://docs.microsoft.com/azure/aks/use-wasi-node-pools)
 
 [tye](https://github.com/dotnet/tye)
+
+### Azure Container Apps
 
 [Azure Container Apps](https://docs.microsoft.com/azure/container-apps/overview)
 
