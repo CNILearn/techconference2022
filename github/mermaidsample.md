@@ -1,13 +1,15 @@
 # Mermaid Samples
 
-## Graph
+## Flowchart
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+```mermaid	
+flowchart TD
+    Start --> A
+    A --> B
+    A --> C
+    B --> D
+    C --> D
+    D --> End
 ```
 
 ## Class Diagram
@@ -34,18 +36,6 @@ classDiagram
       +bool is_wild
       +run()
     }
-```
-
-## Flowchart
-
-```mermaid	
-flowchart TD
-    Start --> A
-    A --> B
-    A --> C
-    B --> D
-    C --> D
-    D --> End
 ```
 
 ## GitGraph
